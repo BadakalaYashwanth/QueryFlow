@@ -1,8 +1,50 @@
 LLM Streamlit SQL Gemini AI
+This project is a Streamlit application that converts English questions into SQL queries using Google Gemini API and retrieves data from an SQLite database.
 
-Overview
-LLM Streamlit SQL Gemini AI is a Streamlit web application that leverages Google's Generative AI (Gemini) to convert English questions into SQL queries. It also interacts with an SQLite database (EMPLOYEESDeails.db) 
+Description
+This application leverages a large language model (LLM) via the Google Gemini API to translate natural language questions into SQL queries. The SQL queries are then executed against a SQLite database, and the results are displayed within the Streamlit app. The example dataset is stored in an SQLite database named EMPLOYEESDeails.db, which includes an EMPLOYEES table with various employee details.
+
+Database Structure
+The EMPLOYEESDeails.db SQLite database contains the following table:
+
+EMPLOYEES
+Column Name	          Data Type         	Constraints
+EMPLOYEE_ID	            INT	             PRIMARY KEY
+FIRST_NAME	         VARCHAR(50)	        NOT NULL
+LAST_NAME	           VARCHAR(50)	        NOT NULL
+EMAIL	               VARCHAR(100)	       UNIQUE NOT NULL
+PHONE_NUMBER	       VARCHAR(20)	
+HIRE_DATE	             DATE	             NOT NULL
+JOB_ID	             VARCHAR(10)	       NOT NULL
+SALARY	             DECIMAL(8, 2)	
+COMMISSION_PCT	     DECIMAL(2, 2)	
+MANAGER_ID	           INT	
+DEPARTMENT_ID	         INT	
+DATE_OF_BIRTH	         DATE	
+ADDRESS	            VARCHAR(200)	
+GENDER	            CHAR(1)	
+NATIONALITY       	VARCHAR(50)
 to retrieve data based on the generated SQL queries.
+
+How to Use
+Follow these steps to set up and run the application:
+
+Prerequisites
+Python 3.x
+Streamlit
+SQLite
+Google Gemini API Key
+
+requirements.txt
+streamlit
+google-generativeai 
+python-dotenv
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+pdf2image
+sqlite3
 
 Features
 Converts English questions to SQL queries using Google's Generative AI.
