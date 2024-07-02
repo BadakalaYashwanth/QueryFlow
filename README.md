@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 3. Set up environment variables:
 Create a .env file in the root directory and add your Google API key:
-GOOGLE_API_KEY="your_google_api_key"
+GOOGLE_API_KEY(Google Bard API Key)
 
 4. Run the Streamlit app: Start the Streamlit server locally:
 streamlit run app.py , This will launch the web application in your default web browser.                    
