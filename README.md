@@ -8,22 +8,22 @@ Database Structure
 The EMPLOYEESDeails.db SQLite database contains the following table:
 
 EMPLOYEES
-Column Name	          Data Type         	Constraints
-EMPLOYEE_ID	            INT	             PRIMARY KEY
-FIRST_NAME	         VARCHAR(50)	        NOT NULL
-LAST_NAME	           VARCHAR(50)	        NOT NULL
-EMAIL	               VARCHAR(100)	       UNIQUE NOT NULL
-PHONE_NUMBER	       VARCHAR(20)	
-HIRE_DATE	             DATE	             NOT NULL
-JOB_ID	             VARCHAR(10)	       NOT NULL
-SALARY	             DECIMAL(8, 2)	
-COMMISSION_PCT	     DECIMAL(2, 2)	
-MANAGER_ID	           INT	
-DEPARTMENT_ID	         INT	
-DATE_OF_BIRTH	         DATE	
-ADDRESS	            VARCHAR(200)	
-GENDER	            CHAR(1)	
-NATIONALITY       	VARCHAR(50)
+(Column Name)	          (Data Type)         	(Constraints),
+EMPLOYEE_ID	            (INT),	             (PRIMARY KEY),
+FIRST_NAME	         VARCHAR(50),	           (NOT NULL),
+LAST_NAME	           VARCHAR(50),	           (NOT NULL),
+EMAIL	               VARCHAR(100),	         (UNIQUE NOT NULL),
+PHONE_NUMBER	       VARCHAR(20),	
+HIRE_DATE             (DATE),	             (NOT NULL),
+JOB_ID	             VARCHAR(10),	           (NOT NULL),
+SALARY	             DECIMAL(8, 2),	
+COMMISSION_PCT	     DECIMAL(2, 2),	
+MANAGER_ID	           INT,	
+DEPARTMENT_ID	         INT,	
+DATE_OF_BIRTH	         DATE,	
+ADDRESS	            VARCHAR(200),	
+GENDER	            CHAR(1),	
+NATIONALITY       	VARCHAR(50),
 to retrieve data based on the generated SQL queries.
 
 How to Use
