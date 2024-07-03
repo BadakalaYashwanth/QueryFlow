@@ -1,9 +1,8 @@
 LLM Streamlit SQL Gemini AI
 This project is a Streamlit application that converts English questions into SQL queries using Google Gemini API and retrieves data from an SQLite database.
 Using the command Streamlit to run the code. 
---![Screenshot 2024-07-03 133218](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/806cb7c3-c8f9-4470-9ef5-3f9c1ed96015)
- 
-1. ![Screenshot 2024-07-03 134042](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/d6828ebf-5774-44aa-9977-b24cdf1a4f28)
+![Screenshot 2024-07-03 133218](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/806cb7c3-c8f9-4470-9ef5-3f9c1ed96015)
+
 Explanation Using Natural Language Understanding (NLU):
 Comprehend the Request:
 
@@ -15,6 +14,8 @@ Perform Calculations:
 
 Ensure that the SQL query includes the calculation for the average salary per year by dividing the total salary by the number of years since the hire date.
 This process highlights how Natural Language Processing (NLP) and SQL can be combined to interpret user requests and perform database queries efficiently.
+ ![Screenshot 2024-07-03 134042](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/d6828ebf-5774-44aa-9977-b24cdf1a4f28)
+
 
 2. ![Screenshot 2024-07-03 133328](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/3c45cf79-e6ba-4e62-b9b6-7663670ad508)
 
