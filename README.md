@@ -14,6 +14,7 @@ Perform Calculations:
 
 Ensure that the SQL query includes the calculation for the average salary per year by dividing the total salary by the number of years since the hire date.
 This process highlights how Natural Language Processing (NLP) and SQL can be combined to interpret user requests and perform database queries efficiently.
+
  ![Screenshot 2024-07-03 134042](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/d6828ebf-5774-44aa-9977-b24cdf1a4f28)
 
 
@@ -21,7 +22,7 @@ This process highlights how Natural Language Processing (NLP) and SQL can be com
 
 
 
---https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/dfc351f8-bc91-48cf-8275-cd62b164a7b4
+[--https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/dfc351f8-bc91-48cf-8275-cd62b164a7b4](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/b4243f43-ee07-4b7d-bc28-4bd7f71805df)
 
 Description
 This application leverages a large language model (LLM) via the Google Gemini API to translate natural language questions into SQL queries. The SQL queries are then executed against a SQLite database, and the results are displayed within the Streamlit app. The example dataset is stored in an SQLite database named EMPLOYEESDeails.db, which includes an EMPLOYEES table with various employee details.
