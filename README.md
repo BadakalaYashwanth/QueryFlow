@@ -1,13 +1,13 @@
 LLM Streamlit SQL Gemini AI
 This project is a Streamlit application that converts English questions into SQL queries using Google Gemini API and retrieves data from an SQLite database.
 
-![Screenshot 2024-07-03 134042](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/d6828ebf-5774-44aa-9977-b24cdf1a4f28)
+--![Screenshot 2024-07-03 134042](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/d6828ebf-5774-44aa-9977-b24cdf1a4f28)
 
-![Screenshot 2024-07-03 133328](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/3c45cf79-e6ba-4e62-b9b6-7663670ad508)
+--![Screenshot 2024-07-03 133328](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/3c45cf79-e6ba-4e62-b9b6-7663670ad508)
 
-![Screenshot 2024-07-03 133218](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/806cb7c3-c8f9-4470-9ef5-3f9c1ed96015)
+--![Screenshot 2024-07-03 133218](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/806cb7c3-c8f9-4470-9ef5-3f9c1ed96015)
 
-https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/dfc351f8-bc91-48cf-8275-cd62b164a7b4
+--https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/dfc351f8-bc91-48cf-8275-cd62b164a7b4
 
 Description
 This application leverages a large language model (LLM) via the Google Gemini API to translate natural language questions into SQL queries. The SQL queries are then executed against a SQLite database, and the results are displayed within the Streamlit app. The example dataset is stored in an SQLite database named EMPLOYEESDeails.db, which includes an EMPLOYEES table with various employee details.
