@@ -1,4 +1,4 @@
-LLM Streamlit SQL Gemini AI
+QueryFlow
 This project is a Streamlit application that converts English questions into SQL queries using Google Gemini API and retrieves data from an SQLite database.
 Using the command Streamlit to run the code. 
 ![Screenshot 2024-07-03 133218](https://github.com/BadakalaYashwanth/LLM-Streamlit-Gemini-SQL-AI/assets/170221536/806cb7c3-c8f9-4470-9ef5-3f9c1ed96015)
